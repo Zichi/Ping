@@ -1,0 +1,60 @@
+body{
+	background:#222;
+}
+
+#wrapper{
+	margin:0px auto;
+	padding:0px;
+	width:600px;
+	height:800px;
+	background:#333;
+	font-family: helvetica;
+	font-weight:bold;
+}
+
+#timer{
+	position:relative;
+	top:15px;
+	text-align:center;
+}
+
+.section{
+	width:100%;
+	height:60px;
+	background:#444;
+	border-bottom:1px solid #333;
+}
+.item{
+	width:100%;
+	height:60px;
+	background:#333;
+	border-bottom:1px solid #333;
+}
+.offline{
+	width:100%;
+	height:60px;
+	background:#333;
+	border-bottom:1px solid #444;
+}
+.sectionLabel{
+	float:left;
+	font-size: 1em;
+	color: #FFF;
+	line-height:1.5;
+	margin:15px;
+}
+.sectionStatus{
+	float:right;
+	font-size: 1em;
+	line-height:1.5;
+	margin:15px;
+}
+.green{
+	color:#00E000;
+}
+.red{
+	color:#C00000;
+}
+.orange{
+	color:#FFA500;
+}
