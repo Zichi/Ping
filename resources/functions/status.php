@@ -14,7 +14,7 @@
 	$section = $_POST["section"];
 	
 	//sends the ping request through the ping(host, port, ttl) function.
-	$ping = ping($ip, $port, 10);
+	$ping = ping($ip, $port, 2);
 	
 	//checks if the ping was successfull or failed.
 	if($ping != false){

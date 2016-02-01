@@ -1,39 +1,78 @@
 body{
-	background:#222;
+	background:#19101D;
+	margin:0;
 }
 
 #wrapper{
-	margin:0px auto;
+	font-family: 'Biko';
+	width:500px;
+	margin:0px auto;	
+	font-weight:;
+	
+}
+
+#systemStatus{
+	margin:40px auto 0px;
 	padding:0px;
-	width:600px;
-	height:800px;
+	width:500px;
 	background:#333;
-	font-family: helvetica;
-	font-weight:bold;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#preloader{
+	width:100%;
+	height:100px;
+	background:#000;
+	opacity:0.5;
+	z-index:10;
+}
+
+#system{
+	text-align:center;
+	color:#FFF;
+}
+
+#footer{
+	border-radius: 0px 0px 15px 15px;
+	border:none;
+	width:100%;
+	float:left;
 }
 
 #timer{
-	position:relative;
-	top:15px;
+	text-align:center;
+	color:#FFF;
+}
+
+#title{
+	border-radius: 15px 15px 0px 0px;
+	margin:0px;
+}
+
+#footer p{
 	text-align:center;
 }
 
 .section{
 	width:100%;
-	height:60px;
-	background:#444;
-	border-bottom:1px solid #333;
+	float:left;
+	height:50px;
+	background:#201A22;
+	border-bottom:1px solid #2C2C2C;
 }
 .item{
 	width:100%;
-	height:60px;
-	background:#333;
-	border-bottom:1px solid #333;
+	height:50px;
+	background:#0D0411;
+	float:left;
+	border-bottom:1px solid #2C2C2C;
 }
-.offline{
+#refresh{
 	width:100%;
-	height:60px;
-	background:#333;
+	height:50px;
+	background:#493D4E;
 	border-bottom:1px solid #444;
 }
 .sectionLabel{
@@ -41,13 +80,13 @@ body{
 	font-size: 1em;
 	color: #FFF;
 	line-height:1.5;
-	margin:15px;
+	margin:12px;
 }
 .sectionStatus{
 	float:right;
 	font-size: 1em;
 	line-height:1.5;
-	margin:15px;
+	margin:12px;
 }
 .green{
 	color:#00E000;
@@ -57,4 +96,17 @@ body{
 }
 .orange{
 	color:#FFA500;
+}
+.white{
+	color:#FFF;
+}
+
+@font-face {
+    font-family: "GeoSans";
+    src: url(../fonts/GeosansLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Biko";
+    src: url(../fonts/Biko_Regular.otf) format("opentype");
 }
