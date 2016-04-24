@@ -15,6 +15,4 @@ CREATE TABLE IF NOT EXISTS options(
 )ENGINE=INNODB;
 
 /* Inserts the options base value */
-INSERT INTO options ('label', 'option') VALUES ('minimal', false);
-INSERT INTO options ('label', 'option') VALUES ('refreshtimer', '30');
-INSERT INTO options ('label', 'option') VALUES ('showMS', true);
+INSERT INTO options ('label', 'option') VALUES ('minimal', false),('refreshtimer', '30'),('showMS', true);
